@@ -1,0 +1,63 @@
+.navbar-container {
+  position: relative;
+  border-top: #b63c2e solid 10px;
+  padding-top: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 10%;
+}
+
+.nav-list {
+  position: absolute;
+  right: 9rem;
+  bottom: -2.5rem;
+  width: 65%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #b63c2e;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  max-height: 40px;
+}
+
+.nav-button {
+  background-color: #b63c2e;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: 0.3s ease-out;
+}
+
+.contact-button {
+  position: absolute;
+  bottom: 0;
+  right: -8rem;
+  background-color: #4a1e18;
+  border-radius: 5px;
+}
+
+.nav-button a,
+.contact-button a {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0px 5px;
+}
+
+.active {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: #4a1e18;
+  border: 1px solid #b63c2e;
+  padding: 0 2px;
+  height: 55px;
+}

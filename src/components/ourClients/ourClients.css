@@ -1,0 +1,8 @@
+.our-clients-container {
+    background-color: #EFEFEF;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: space-around;
+}

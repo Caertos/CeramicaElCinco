@@ -1,0 +1,60 @@
+.how-we-do-it-container {
+  display: flex;
+  position: relative;
+  margin-top: 2vw;
+  justify-content: center;
+}
+
+.how-we-do-it-content {
+  position: relative;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.how-we-do-it-content > :first-child {
+  padding-top: 70px;
+  border-right: solid 2px #b63c2e;
+}
+
+.how-we-do-it-content p {
+  position: relative;
+  margin-bottom: 100px;
+  padding: 0 25px;
+}
+
+.how-we-do-it-content > :first-child p {
+    text-align: right;
+}
+
+.how-we-do-it-content div p span {
+  position: absolute;
+  background-color: #b63c2e;
+  border-radius: 100%;
+  min-height: 20px;
+  min-width: 20px;
+}
+
+.how-we-do-it-content div p span::before {
+  position: absolute;
+  content: " ";
+  top: -5px;
+  left: -5px;
+  background-color: transparent;
+  border: solid 2px #b63c2e;
+  border-radius: 100%;
+  min-height: 27px;
+  min-width: 27px;
+}
+
+.how-we-do-it-content > :first-child p span {
+  bottom: 20px;
+  right: -11px;
+}
+
+.how-we-do-it-content > :last-child p span {
+  bottom: 20px;
+  left: -31px;
+}

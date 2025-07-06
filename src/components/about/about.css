@@ -1,0 +1,23 @@
+.about-container {
+  display: flex;
+  position: relative;
+  margin-top: 2vw;
+  justify-content: center;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about p {
+  padding-top: 2vw;
+  text-align: right;
+}
+
+.about img {
+    border-radius: 0 5px 5px 0;
+}
